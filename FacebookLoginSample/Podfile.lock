@@ -13,6 +13,9 @@ PODS:
     - FBSDKCoreKit/Basics
   - FBSDKLoginKit (5.2.1):
     - FBSDKCoreKit (~> 5.0)
+  - R.swift (5.0.3):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.1)
   - Realm (3.17.0):
     - Realm/Headers (= 3.17.0)
   - Realm/Headers (3.17.0)
@@ -22,6 +25,7 @@ PODS:
 DEPENDENCIES:
   - FacebookCore
   - FacebookLogin
+  - R.swift
   - RealmSwift
 
 SPEC REPOS:
@@ -30,6 +34,8 @@ SPEC REPOS:
     - FacebookLogin
     - FBSDKCoreKit
     - FBSDKLoginKit
+    - R.swift
+    - R.swift.Library
     - Realm
     - RealmSwift
 
@@ -38,9 +44,11 @@ SPEC CHECKSUMS:
   FacebookLogin: 94cdad6850e86a2b04704dedfe7674a7af8148eb
   FBSDKCoreKit: e1ab8d86f5eea2d7aa6ab12acca3e1d2dcb11983
   FBSDKLoginKit: 6e20e44775ddf4b159a8ca676834325e13d12221
+  R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
+  R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
   Realm: b30db41ff34fc858ffc25ba8d44a82c164e7ccd0
   RealmSwift: fe733e459d60dc7b6971d4cbee2eb4854097d12c
 
-PODFILE CHECKSUM: cbcb127f72ab72e7af5b8506fdc8f48631ba10b4
+PODFILE CHECKSUM: 8b2223ffe50c6d75bc8b14fb8475b10f646f6ec0
 
 COCOAPODS: 1.7.3

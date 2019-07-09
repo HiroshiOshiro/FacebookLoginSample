@@ -12,6 +12,17 @@
 		683F9AF022D1795D00BD3679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683F9AEE22D1795D00BD3679 /* Main.storyboard */; };
 		683F9AF222D1795E00BD3679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683F9AF122D1795E00BD3679 /* Assets.xcassets */; };
 		683F9AF522D1795E00BD3679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683F9AF322D1795E00BD3679 /* LaunchScreen.storyboard */; };
+		683F9B1522D1C09100BD3679 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9B1422D1C09100BD3679 /* User.swift */; };
+		683F9B2322D1F1FF00BD3679 /* FBLoingContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9B2222D1F1FF00BD3679 /* FBLoingContract.swift */; };
+		683F9B2922D1FA8800BD3679 /* FBLoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9B2822D1FA8800BD3679 /* FBLoginRouter.swift */; };
+		683F9B2B22D1FAEC00BD3679 /* FBLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683F9B2A22D1FAEC00BD3679 /* FBLogin.storyboard */; };
+		683F9B2D22D1FB4A00BD3679 /* FBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9B2C22D1FB4A00BD3679 /* FBLoginViewController.swift */; };
+		683F9B2F22D2319C00BD3679 /* FBLoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9B2E22D2319C00BD3679 /* FBLoginInteractor.swift */; };
+		683F9B3122D2373900BD3679 /* FBLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9B3022D2373900BD3679 /* FBLoginPresenter.swift */; };
+		683F9B3522D248CB00BD3679 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9B3422D248CB00BD3679 /* R.generated.swift */; };
+		683F9B3722D2595A00BD3679 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9B3622D2595A00BD3679 /* RootWireframe.swift */; };
+		683F9B3922D259C500BD3679 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9B3822D259C500BD3679 /* RootRouter.swift */; };
+		683F9B3D22D4D31F00BD3679 /* FBParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9B3C22D4D31F00BD3679 /* FBParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		683F9AF422D1795E00BD3679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		683F9AF622D1795E00BD3679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		683F9AFC22D18BCC00BD3679 /* FacebookLoginSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FacebookLoginSample.entitlements; sourceTree = "<group>"; };
+		683F9B1422D1C09100BD3679 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		683F9B2222D1F1FF00BD3679 /* FBLoingContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoingContract.swift; sourceTree = "<group>"; };
+		683F9B2822D1FA8800BD3679 /* FBLoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginRouter.swift; sourceTree = "<group>"; };
+		683F9B2A22D1FAEC00BD3679 /* FBLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FBLogin.storyboard; sourceTree = "<group>"; };
+		683F9B2C22D1FB4A00BD3679 /* FBLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginViewController.swift; sourceTree = "<group>"; };
+		683F9B2E22D2319C00BD3679 /* FBLoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginInteractor.swift; sourceTree = "<group>"; };
+		683F9B3022D2373900BD3679 /* FBLoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginPresenter.swift; sourceTree = "<group>"; };
+		683F9B3422D248CB00BD3679 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		683F9B3622D2595A00BD3679 /* RootWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		683F9B3822D259C500BD3679 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		683F9B3C22D4D31F00BD3679 /* FBParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBParameters.swift; sourceTree = "<group>"; };
 		941A834B158C03D53D531B71 /* Pods-FacebookLoginSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookLoginSample.debug.xcconfig"; path = "Target Support Files/Pods-FacebookLoginSample/Pods-FacebookLoginSample.debug.xcconfig"; sourceTree = "<group>"; };
 		A96FECA15E2F46914A2B158A /* Pods-FacebookLoginSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookLoginSample.release.xcconfig"; path = "Target Support Files/Pods-FacebookLoginSample/Pods-FacebookLoginSample.release.xcconfig"; sourceTree = "<group>"; };
 		FDD02D8496955547841F8DC2 /* Pods_FacebookLoginSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookLoginSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,14 +91,137 @@
 		683F9AE922D1795D00BD3679 /* FacebookLoginSample */ = {
 			isa = PBXGroup;
 			children = (
-				683F9AFC22D18BCC00BD3679 /* FacebookLoginSample.entitlements */,
-				683F9AEA22D1795D00BD3679 /* AppDelegate.swift */,
+				683F9B3322D2489A00BD3679 /* Resource */,
+				683F9B2422D1F3C000BD3679 /* Extensions */,
+				683F9B1A22D1F0CF00BD3679 /* Modules */,
+				683F9B1722D1F09000BD3679 /* Models */,
+				683F9B1622D1F07300BD3679 /* Application */,
 				683F9AEE22D1795D00BD3679 /* Main.storyboard */,
-				683F9AF122D1795E00BD3679 /* Assets.xcassets */,
-				683F9AF322D1795E00BD3679 /* LaunchScreen.storyboard */,
-				683F9AF622D1795E00BD3679 /* Info.plist */,
 			);
 			path = FacebookLoginSample;
+			sourceTree = "<group>";
+		};
+		683F9B1622D1F07300BD3679 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				683F9AEA22D1795D00BD3679 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		683F9B1722D1F09000BD3679 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B1822D1F0A400BD3679 /* Realm */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		683F9B1822D1F0A400BD3679 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B1422D1C09100BD3679 /* User.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		683F9B1A22D1F0CF00BD3679 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B1B22D1F0E200BD3679 /* Root */,
+				683F9B1C22D1F0EC00BD3679 /* FBLogin */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		683F9B1B22D1F0E200BD3679 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B3622D2595A00BD3679 /* RootWireframe.swift */,
+				683F9B3822D259C500BD3679 /* RootRouter.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		683F9B1C22D1F0EC00BD3679 /* FBLogin */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B2122D1F14800BD3679 /* View */,
+				683F9B2022D1F13E00BD3679 /* Router */,
+				683F9B1F22D1F13600BD3679 /* Presenter */,
+				683F9B1E22D1F12A00BD3679 /* Interactor */,
+				683F9B1D22D1F11E00BD3679 /* Contract */,
+			);
+			path = FBLogin;
+			sourceTree = "<group>";
+		};
+		683F9B1D22D1F11E00BD3679 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B2222D1F1FF00BD3679 /* FBLoingContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		683F9B1E22D1F12A00BD3679 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B2E22D2319C00BD3679 /* FBLoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		683F9B1F22D1F13600BD3679 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B3022D2373900BD3679 /* FBLoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		683F9B2022D1F13E00BD3679 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B2822D1FA8800BD3679 /* FBLoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		683F9B2122D1F14800BD3679 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B2A22D1FAEC00BD3679 /* FBLogin.storyboard */,
+				683F9B2C22D1FB4A00BD3679 /* FBLoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		683F9B2422D1F3C000BD3679 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		683F9B3322D2489A00BD3679 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B3B22D4D30E00BD3679 /* Enum */,
+				683F9AF622D1795E00BD3679 /* Info.plist */,
+				683F9B3422D248CB00BD3679 /* R.generated.swift */,
+				683F9AF322D1795E00BD3679 /* LaunchScreen.storyboard */,
+				683F9AF122D1795E00BD3679 /* Assets.xcassets */,
+				683F9AFC22D18BCC00BD3679 /* FacebookLoginSample.entitlements */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		683F9B3B22D4D30E00BD3679 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				683F9B3C22D4D31F00BD3679 /* FBParameters.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 		7EA955FD7123A46E88079758 /* Frameworks */ = {
@@ -95,6 +240,7 @@
 			buildConfigurationList = 683F9AF922D1795E00BD3679 /* Build configuration list for PBXNativeTarget "FacebookLoginSample" */;
 			buildPhases = (
 				3E987519111D6FFDF240D706 /* [CP] Check Pods Manifest.lock */,
+				683F9B3222D246F000BD3679 /* ShellScript */,
 				683F9AE322D1795D00BD3679 /* Sources */,
 				683F9AE422D1795D00BD3679 /* Frameworks */,
 				683F9AE522D1795D00BD3679 /* Resources */,
@@ -154,6 +300,7 @@
 			files = (
 				683F9AF522D1795E00BD3679 /* LaunchScreen.storyboard in Resources */,
 				683F9AF222D1795E00BD3679 /* Assets.xcassets in Resources */,
+				683F9B2B22D1FAEC00BD3679 /* FBLogin.storyboard in Resources */,
 				683F9AF022D1795D00BD3679 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +347,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FacebookLoginSample/Pods-FacebookLoginSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		683F9B3222D246F000BD3679 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -207,7 +373,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683F9B2322D1F1FF00BD3679 /* FBLoingContract.swift in Sources */,
+				683F9B2922D1FA8800BD3679 /* FBLoginRouter.swift in Sources */,
+				683F9B3922D259C500BD3679 /* RootRouter.swift in Sources */,
+				683F9B2D22D1FB4A00BD3679 /* FBLoginViewController.swift in Sources */,
+				683F9B1522D1C09100BD3679 /* User.swift in Sources */,
+				683F9B3722D2595A00BD3679 /* RootWireframe.swift in Sources */,
+				683F9B2F22D2319C00BD3679 /* FBLoginInteractor.swift in Sources */,
+				683F9B3522D248CB00BD3679 /* R.generated.swift in Sources */,
+				683F9B3122D2373900BD3679 /* FBLoginPresenter.swift in Sources */,
 				683F9AEB22D1795D00BD3679 /* AppDelegate.swift in Sources */,
+				683F9B3D22D4D31F00BD3679 /* FBParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,17 +530,19 @@
 			baseConfigurationReference = 941A834B158C03D53D531B71 /* Pods-FacebookLoginSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = FacebookLoginSample/FacebookLoginSample.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FacebookLoginSample/Resource/FacebookLoginSample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SN5DS5FR82;
-				INFOPLIST_FILE = FacebookLoginSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				INFOPLIST_FILE = FacebookLoginSample/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ooshiro010.FacebookLoginSample;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.veldt.FacebookLoginSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -375,17 +553,19 @@
 			baseConfigurationReference = A96FECA15E2F46914A2B158A /* Pods-FacebookLoginSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = FacebookLoginSample/FacebookLoginSample.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FacebookLoginSample/Resource/FacebookLoginSample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SN5DS5FR82;
-				INFOPLIST_FILE = FacebookLoginSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				INFOPLIST_FILE = FacebookLoginSample/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ooshiro010.FacebookLoginSample;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.veldt.FacebookLoginSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

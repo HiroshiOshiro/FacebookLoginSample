@@ -8,5 +8,6 @@ target 'FacebookLoginSample' do
   pod 'FacebookCore'
   pod 'FacebookLogin'
   pod 'RealmSwift'
+  pod 'R.swift'
 
 end
