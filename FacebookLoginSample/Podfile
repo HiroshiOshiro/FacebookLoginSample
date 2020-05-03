@@ -5,8 +5,6 @@ target 'FacebookLoginSample' do
   use_frameworks!
 
   # Pods for FacebookLoginSample
-#  pod 'FacebookCore'
-#  pod 'FacebookLogin'
   pod 'RealmSwift'
   pod 'R.swift'
 

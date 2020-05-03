@@ -11,7 +11,6 @@
 		683760F524270F8F0008F2AD /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 683760F424270F8F0008F2AD /* FacebookLogin */; };
 		683760F724270F8F0008F2AD /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 683760F624270F8F0008F2AD /* FacebookCore */; };
 		683F9AEB22D1795D00BD3679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9AEA22D1795D00BD3679 /* AppDelegate.swift */; };
-		683F9AF022D1795D00BD3679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683F9AEE22D1795D00BD3679 /* Main.storyboard */; };
 		683F9AF222D1795E00BD3679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683F9AF122D1795E00BD3679 /* Assets.xcassets */; };
 		683F9AF522D1795E00BD3679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683F9AF322D1795E00BD3679 /* LaunchScreen.storyboard */; };
 		683F9B1522D1C09100BD3679 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F9B1422D1C09100BD3679 /* User.swift */; };
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		683F9AE722D1795D00BD3679 /* FacebookLoginSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookLoginSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		683F9AEA22D1795D00BD3679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		683F9AEF22D1795D00BD3679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		683F9AF122D1795E00BD3679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		683F9AF422D1795E00BD3679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		683F9AF622D1795E00BD3679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 				683F9B1A22D1F0CF00BD3679 /* Modules */,
 				683F9B1722D1F09000BD3679 /* Models */,
 				683F9B1622D1F07300BD3679 /* Application */,
-				683F9AEE22D1795D00BD3679 /* Main.storyboard */,
 			);
 			path = FacebookLoginSample;
 			sourceTree = "<group>";
@@ -312,7 +309,6 @@
 				683F9AF522D1795E00BD3679 /* LaunchScreen.storyboard in Resources */,
 				683F9AF222D1795E00BD3679 /* Assets.xcassets in Resources */,
 				683F9B2B22D1FAEC00BD3679 /* FBLogin.storyboard in Resources */,
-				683F9AF022D1795D00BD3679 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,14 +397,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		683F9AEE22D1795D00BD3679 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				683F9AEF22D1795D00BD3679 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		683F9AF322D1795E00BD3679 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
