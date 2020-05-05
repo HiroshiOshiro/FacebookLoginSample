@@ -26,7 +26,7 @@ protocol FBLoginPresentation: class {
 protocol FBLoginUseCase: class {
     func getUser()
     func saveUser(user: User)
-    func deleteUser(user: User)
+    func deleteUser()
 }
 
 protocol FBLoginInteractorOutput: class {

@@ -51,11 +51,10 @@ extension FBLoginInteractor: FBLoginUseCase {
         }
     }
     
-    func deleteUser(user: User) {
+    func deleteUser() {
         let realm = try! Realm()
-        let userFromDB = realm.objects(User.self).filter("id == %@", user.id)
         try! realm.write {
-            realm.delete(userFromDB)
+            realm.delete(realm.objects(User.self))
         }
     }
 }

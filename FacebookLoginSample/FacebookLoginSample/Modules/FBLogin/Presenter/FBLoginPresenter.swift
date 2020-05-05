@@ -14,18 +14,8 @@ class FBLoginPresenter: FBLoginPresentation {
     var interactor: FBLoginUseCase!
     var router: FBLoginWireframe!
     
-    var user: User? {
-        didSet {
-            if let user = user {
-                view?.showUserDetail(user: user)
-            } else {
-                view?.hideUserDetail()
-            }
-        }
-    }
-    
     func viewDidLoad() {
-        self.user = nil
+        self.view?.hideUserDetail()
         interactor.getUser()
     }
     
@@ -34,16 +24,18 @@ class FBLoginPresenter: FBLoginPresentation {
     }
     
     func logoutSucceeded() {
-        if let user = self.user {
-            interactor.deleteUser(user: user)
-            gotUser(user: nil)
-        }
+        interactor.deleteUser()
+        gotUser(user: nil)
     }
 }
 
 extension FBLoginPresenter: FBLoginInteractorOutput {
     func gotUser(user: User?) {
-        self.user = user
+        if let user = user {
+            self.view?.showUserDetail(user: user)
+        } else {
+            self.view?.hideUserDetail()
+        }
     }
 }
 
